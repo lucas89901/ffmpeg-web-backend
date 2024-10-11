@@ -1,0 +1,38 @@
+{
+  "name": "ffmpeg-web-backend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucas89901/ffmpeg-web-backend.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "api",
+    "backend"
+  ],
+  "author": "Lucas Lu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucas89901/ffmpeg-web-backend/issues"
+  },
+  "homepage": "https://github.com/lucas89901/ffmpeg-web-backend#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mime-types": "^2.1.35",
+    "morgan": "^1.10.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": false
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
